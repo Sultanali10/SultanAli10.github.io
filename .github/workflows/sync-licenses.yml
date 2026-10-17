@@ -1,1 +1,43 @@
+name: Sync licenses CSV to JSON
+on:
+  schedule:
+    - cron: "7 * * * *"
+  workflow_dispatch:
 
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch CSV and build JSON
+        run: |
+          python3 - <<'EOF'
+          import csv, json, io, urllib.request, datetime
+          URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSyvMVuXAraz3ZYyf0-KQzB0eGByo68K33QhO2enD7B2jRO3Yv_141lp0HDGDHPuN0P9lF-GM9OUHS1/pub?gid=0&single=true&output=csv"
+          req = urllib.request.Request(URL, headers={"User-Agent": "flow-license-sync"})
+          text = urllib.request.urlopen(req, timeout=30).read().decode("utf-8-sig")
+          rows = list(csv.reader(io.StringIO(text)))
+          codes = []
+          for r in rows[1:]:
+              if not r or not r[0].strip():
+                  continue
+              codes.append({
+                  "hash": r[0].strip(),
+                  "company": r[1].strip() if len(r) > 1 else "",
+                  "expiry": r[2].strip() if len(r) > 2 else "",
+                  "status": r[3].strip() if len(r) > 3 else "",
+              })
+          with open("flow-licenses.json", "w", encoding="utf-8") as f:
+              json.dump({"updated": datetime.datetime.utcnow().isoformat() + "Z",
+                         "codes": codes}, f, ensure_ascii=False, indent=1)
+          print("records:", len(codes))
+          EOF
+      - name: Commit if changed
+        run: |
+          git config user.name "license-sync"
+          git config user.email "license-sync@users.noreply.github.com"
+          git add flow-licenses.json
+          git diff --cached --quiet && echo "no changes" || (git commit -m "sync licenses" && git push)
