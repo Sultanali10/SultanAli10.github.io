@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T19:08:53.652651Z",
+ "updated": "2026-10-20T23:07:19.019634Z",
  "codes": [
   {
    "hash": "08925203c699cf21863ae468bff54b7f826b74ea7f209f261c392077c9225166",
@@ -21,33 +21,33 @@
   },
   {
    "hash": "05171c820593090a45fa0880a8626b8b000f130289d16eb375cd14f0f4ebd545",
-   "company": "ببببب",
+   "company": "",
    "expiry": "2027-09-30",
    "status": "active"
   },
   {
    "hash": "c980467b4bda5b6938842c1e2596f71058acb0aa35922a0a273fcb449255f29e",
-   "company": "بببببب",
+   "company": "",
    "expiry": "2027-09-30",
-   "status": "inactive"
+   "status": "active"
   },
   {
    "hash": "7d618c368ebd140704828d9632fa2bcca498b89ba30f54ce01f6c48ed7b1ed23",
-   "company": "بببببب",
+   "company": "",
    "expiry": "2027-09-30",
-   "status": "inactive"
+   "status": "active"
   },
   {
    "hash": "b9834c76d6665e3b22ee64b3642b5d0f3e965a1341d7882d9f517aa666aa07d4",
-   "company": "بببببب",
+   "company": "",
    "expiry": "2027-09-30",
-   "status": "inactive"
+   "status": "active"
   },
   {
    "hash": "3a6a2a5eca08eedcd288d81f266c3d954219c0790449273bd0eeec5ed6c63c25",
-   "company": "بببببب",
+   "company": "",
    "expiry": "2027-09-30",
-   "status": "inactive"
+   "status": "active"
   }
  ]
 }
