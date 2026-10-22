@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T19:10:21.103364Z",
+ "updated": "2026-10-22T23:13:36.640315Z",
  "codes": [
   {
    "hash": "08925203c699cf21863ae468bff54b7f826b74ea7f209f261c392077c9225166",
@@ -20,44 +20,15 @@
    "status": "active"
   },
   {
-   "hash": "05171c820593090a45fa0880a8626b8b000f130289d16eb375cd14f0f4ebd545",
-   "company": "",
-   "expiry": "2027-09-30",
-   "status": "active"
-  },
-  {
-   "hash": "c980467b4bda5b6938842c1e2596f71058acb0aa35922a0a273fcb449255f29e",
-   "company": "",
-   "expiry": "2027-09-30",
-   "status": "active"
-  },
-  {
-   "hash": "7d618c368ebd140704828d9632fa2bcca498b89ba30f54ce01f6c48ed7b1ed23",
-   "company": "",
-   "expiry": "2027-09-30",
-   "status": "active"
-  },
-    {
    "hash": "570427fe2e33ad9f13f4dd39e712d20e9acaab2c64b81afc0127b0819f3befc6",
    "company": "مؤسسة الدور الحديثة للاستثمار",
    "expiry": "2026-10-28",
    "status": "active"
-  },  {
+  },
+  {
    "hash": "570427fe2e33ad9f13f4dd39e712d20e9acaab2c64b81afc0127b0819f3befc6",
    "company": "شركة وفد الحديثة للاستثمار",
    "expiry": "2026-10-28",
-   "status": "active"
-  },
-  {
-   "hash": "b9834c76d6665e3b22ee64b3642b5d0f3e965a1341d7882d9f517aa666aa07d4",
-   "company": "",
-   "expiry": "2027-09-30",
-   "status": "active"
-  },
-  {
-   "hash": "3a6a2a5eca08eedcd288d81f266c3d954219c0790449273bd0eeec5ed6c63c25",
-   "company": "",
-   "expiry": "2027-09-30",
    "status": "active"
   }
  ]
