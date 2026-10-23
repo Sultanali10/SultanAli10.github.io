@@ -19,16 +19,22 @@
    "expiry": "2027-09-30",
    "status": "active"
   },
-  {
-   "hash": "570427fe2e33ad9f13f4dd39e712d20e9acaab2c64b81afc0127b0819f3befc6",
-   "company": "مؤسسة الدور الحديثة للاستثمار",
+    {
+   "hash": "50f6075520218d45851a99c09b3182f1269d61ca8b1de474a357580b93b4cb5b",
+   "company": "شركة إسكان البيت",
    "expiry": "2026-10-28",
    "status": "active"
   },
   {
    "hash": "570427fe2e33ad9f13f4dd39e712d20e9acaab2c64b81afc0127b0819f3befc6",
+   "company": "مؤسسة الدور الحديثة للاستثمار",
+   "expiry": "2026-11-30",
+   "status": "active"
+  },
+  {
+   "hash": "570427fe2e33ad9f13f4dd39e712d20e9acaab2c64b81afc0127b0819f3befc6",
    "company": "شركة وفد الحديثة للاستثمار",
-   "expiry": "2026-10-28",
+   "expiry": "2026-11-30",
    "status": "active"
   }
  ]
