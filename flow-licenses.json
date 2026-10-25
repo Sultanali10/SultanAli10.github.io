@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T11:12:44.167910Z",
+ "updated": "2026-10-25T11:20:41.770364Z",
  "codes": [
   {
    "hash": "08925203c699cf21863ae468bff54b7f826b74ea7f209f261c392077c9225166",
@@ -100,6 +100,24 @@
   {
    "hash": "762f3595b2ccfc47c3c0e9b7087db50e7bc3f8b11d1ef078e07849aeb467f145",
    "company": "الشركة سابتكو",
+   "expiry": "2026-10-30",
+   "status": "active"
+  },
+  {
+   "hash": "b7a02b5f6207766c0a35ac0220400808ae30a9657bc9d060b1c987ffe8af9a07",
+   "company": "بوابة السفر",
+   "expiry": "2026-10-30",
+   "status": "active"
+  },
+  {
+   "hash": "63da108aea97c242ae7ed0c5d726fc537fd154715596012ebbc1390c065f3162",
+   "company": "شركة انوار الهمم",
+   "expiry": "2026-10-30",
+   "status": "active"
+  },
+  {
+   "hash": "2ea24a9c01e865a631b9c0e2df75f3b6ef5da9c04bed2b9d8f2757be3722abc0",
+   "company": "",
    "expiry": "2026-10-30",
    "status": "active"
   }
