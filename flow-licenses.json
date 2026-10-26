@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T10:57:50.145944Z",
+ "updated": "2026-10-26T10:59:16.685918Z",
  "codes": [
   {
    "hash": "08925203c699cf21863ae468bff54b7f826b74ea7f209f261c392077c9225166",
@@ -119,7 +119,7 @@
    "hash": "2ea24a9c01e865a631b9c0e2df75f3b6ef5da9c04bed2b9d8f2757be3722abc0",
    "company": "2153",
    "expiry": "2026-10-30",
-   "status": "active"
+   "status": "inactive"
   },
   {
    "hash": "de559177a20a4014a34037aaf8eb608f396174ba092ddd55766f0122fb7f78ba",
