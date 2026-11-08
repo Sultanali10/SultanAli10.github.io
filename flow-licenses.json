@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T16:59:38.488245Z",
+ "updated": "2026-11-08T21:03:35.032283Z",
  "codes": [
   {
    "hash": "08925203c699cf21863ae468bff54b7f826b74ea7f209f261c392077c9225166",
@@ -130,6 +130,12 @@
   {
    "hash": "7c956979a49c8b2f2df4d1ca5e5f30a6b9b291140ac4c588b1f251a68003c72c",
    "company": "نبيل صالح هلابي لخدمات المعتمرين",
+   "expiry": "2026-11-12",
+   "status": "active"
+  },
+  {
+   "hash": "b5c2c0da04f6e208410dff994ccd6dab052dc90e8954e7ed53f789c8cd58c644",
+   "company": "شركة سلطان للعمرة",
    "expiry": "2026-11-12",
    "status": "active"
   }
