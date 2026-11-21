@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T17:20:15.658449Z",
+ "updated": "2026-11-21T22:22:01.304034Z",
  "codes": [
   {
    "hash": "08925203c699cf21863ae468bff54b7f826b74ea7f209f261c392077c9225166",
@@ -143,6 +143,18 @@
    "hash": "d76ec365d96fff5cb4810f31368844c74e20488a132974c8bbec956dc279d1f9",
    "company": "1310",
    "expiry": "2026-12-10",
+   "status": "active"
+  },
+  {
+   "hash": "c424868029d932957cd37021107cc2feddc3f259e1d73b7652575490bdf7b692",
+   "company": "1027",
+   "expiry": "2026-11-25",
+   "status": "active"
+  },
+  {
+   "hash": "c424868029d932957cd37021107cc2feddc3f259e1d73b7652575490bdf7b692",
+   "company": "2161",
+   "expiry": "2026-11-25",
    "status": "active"
   }
  ]
